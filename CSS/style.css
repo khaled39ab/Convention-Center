@@ -1,0 +1,11 @@
+*{
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+}
+.book-now-btn{
+    color: blue;
+}
+.heading{
+    font-size: 50px;
+    font-weight: 900;
+}
