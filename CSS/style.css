@@ -1,11 +1,41 @@
+/* font  */
+/* @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap'); */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap');
+
 *{
     margin: 0;
+    scroll-behavior: smooth;
+}
+body{
+    /* font-weight: 700; */
     font-family: 'Poppins', sans-serif;
 }
 .book-now-btn{
     color: blue;
 }
 .heading{
+    color: #FFFFFF;
     font-size: 50px;
     font-weight: 900;
+}
+.package{
+    color: #231D4F;
+}
+.package-btn{
+    background-color: #f7eaf2;
+    color: #3F87F5;
+    border-radius: 24px;
+}
+.active-card{
+    background-color: #3F87F5;
+    box-shadow: 0px 42px 34px rgba(63, 135, 245, 0.25);
+    border-radius: 26px;
+}
+.active-card:hover{
+    transform: scale(1.1);
+}
+.active-card button{
+    background-color: #FFFFFF;
+    color: #3F87F5;
+    border-radius: 24px;
 }
