@@ -25,6 +25,9 @@ body{
     font-size: 50px;
     font-weight: 900;
 }
+.slider img{
+    height: 600px;
+}
 
 /* ===================  Package style  =========================== */
 .package{
@@ -51,14 +54,17 @@ body{
     color: #3F87F5;
     border-radius: 24px;
 }
-.best-badge{
-    background-color: #FF4E4E;
-}
 
 .card:hover{
     transform: scale(1.1);
 }
 
+/* ==========================  badge  =========================== */
+.best-badge{
+    background-color: #FF4E4E;
+}
+
+ /* ===================  toast style  =========================== */
 .toast-style{
     border-left: 8px solid green;
 }
@@ -66,7 +72,14 @@ body{
     color: blue;
     font-size: 2em;
 }
-    /* ===================  footer style  =========================== */
+
+ /* ===================  Dishes style  =========================== */
+.dishes img{
+    height: 250px;
+}
+
+
+/* ===================  footer style  =========================== */
 footer{
     height: 300px;
     background-color: black;
