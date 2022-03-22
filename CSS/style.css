@@ -4,6 +4,7 @@
 *{
     margin: 0;
     scroll-behavior: smooth;
+    font-weight: 700 !important;
 }
 body{
     /* font-weight: 700 !important; */
@@ -33,10 +34,10 @@ body{
     color: #231D4F;
     font-weight: 700;
 }
-.package p{
-    /* font-size: 12px; */
+/* .package p{
+    font-size: 12px;
     font-weight: 400;
-}
+} */
 .package-btn{
     background-color: #f7eaf2;
     color: #3F87F5;
@@ -79,9 +80,9 @@ body{
 
 
 /* ===================  accordion style  =========================== */
-.accordion-para{
+/* .accordion-para{
     font-weight: 400;
-}
+} */
 
 /* ===================  footer style  =========================== */
 footer{
